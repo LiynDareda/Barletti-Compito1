@@ -1,0 +1,36 @@
+   38  cd Compito-Barletti1/
+   39  git init
+   40  git add -A
+   41  git remote add origin https://github.com/LiynDareda/Barletti-Compito1.git
+   42  git commit -m "Commit 1 - aggiunta titolo e modificato con css"
+   43  git config user.name LiynDareda
+   44  git config user.email linkbarletti.gmail.com
+   45  git commit -m "Commit 1 - aggiunta titolo e modificato con css"
+   46  git push origin master
+   47  touch url
+   48  nano url
+   49  nano gitignore
+   50  git log
+   51  git add -A
+   52  git commit -m "Commit 2 - gitignore dei file .txt"
+   53  git push origin master
+   54  git add -A
+   55  git commit -m "Commit 3 - aggiunta navbar"
+   56  git push origin master
+   57  git branch newFeature-Navbar
+   58  git checkout newFeature-Navbar
+   59  git add -A
+   60  git commit -m "Commit 4 - nuovo branch e modifica navbar"
+   61  git push origin master
+   62  git checkout master
+   63  git add -A
+   64  git commit -m "Commit 5 - modifica navbar per generare conflitti"
+   65  git merge newFeature-Navbar 
+   66  git commit -m "Commit 6 - merge-conflict"
+   67  git merge newFeature-Navbar 
+   68  nano index.html 
+   69  git add -A
+   70  git commit -m "Commit 6 - merge-conflict"
+   71  git push origin master
+   72  git history 40 > comandi.txt
+   73  history 40 > comandi.txt
